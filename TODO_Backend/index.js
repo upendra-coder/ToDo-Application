@@ -16,7 +16,7 @@ app.listen(port, () => {
 });
 
 // mongoose.connect('mongodb://localhost:27017/TODO');
-mongoose.connect("mongodb+srv://nagarupendra98:Upennagar%4014@cluster0.qkhvb.mongodb.net/", { 
+mongoose.connect("mongodb", { 
     dbName: "TODO", 
     useNewUrlParser: true, 
     useUnifiedTopology: true 
